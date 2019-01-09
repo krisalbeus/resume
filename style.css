@@ -1,0 +1,86 @@
+@page {
+    margin: 0;
+}
+@media print {
+    .pbb {
+        page-break-before: always;
+        margin-top: 40px;
+    }
+}
+p {
+    margin-bottom: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-print-color-adjust: exact;
+    font-size: 1rem;
+}
+header {
+    background-color: #999;
+}
+header h1 {
+    color: white;
+    letter-spacing: 0.25rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+header li {
+    list-style-type: none;
+    font-size: 0.8rem;
+    color: #ddd;
+}
+header li i.fa, header li i.fab {
+    margin-right: 5px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background: #c3c3c0;
+    width: 2rem;
+    height: 2rem;
+    color: #6c6c6c;
+    text-align: center;
+    font-size: 1rem;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.company-exp {
+    display: flex;
+}
+#img-work-map {
+    width: 200px;
+    height: 200px;
+}
+
+
+.tech-exp li {
+    display: flex;
+    align-items: center;
+}
+.tech-exp li .platform, .tech-exp li .ranking {
+    flex: 50%;
+}
+.platform {
+    text-align: right;
+    margin-right: 0.5rem;
+}
+.ranking {
+    display: flex;
+}
+.box {
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid orange;
+    background: orange;
+    margin: 1px;
+}
+.box.box-hollow {
+    background: none;
+}
